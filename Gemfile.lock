@@ -277,7 +277,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (>= 207)
   html-proofer (>= 3.11.1)
   jekyll-remote-theme
   rake
