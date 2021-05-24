@@ -10,7 +10,7 @@ jobs:
       - checkout
       
       - run:
-          name: git hub pahes
+          name: git hub pages
           command: bundle update github-pages
       
       - run:
