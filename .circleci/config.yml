@@ -8,7 +8,11 @@ jobs:
     executor: ci-executor
     steps:
       - checkout
-
+      
+      - run:
+          name: git hub pahes
+          command: bundle update github-pages
+      
       - run:
           name: build dependencies
           command: bundle install
